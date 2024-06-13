@@ -1,0 +1,45 @@
+/* index.css */
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities;
+
+body
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+}
+
+.main2{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(179, 179, 179);
+
+}
+.main3{
+    width: 150px;
+    height: 100px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 60px;
+}
+p
+{
+    font-size: 60px;
+    color: #eeff00;
+}
+button
+{
+    background-color: #eeff00;
+    border: solid black 2px;
+}
